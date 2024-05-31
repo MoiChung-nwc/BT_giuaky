@@ -110,7 +110,7 @@ $("#categoryForm").submit(function(event) {
                     $("#name").addClass('is-invalid').siblings('p').addClass('invalid-feedback').html(errors['name']);
                 } else {
                     $("#name").removeClass('is-invalid').siblings('p').removeClass('invalid-feedback').html("");
-                }
+                }g
 
                 if(errors['slug']) {
                     $("#slug").addClass('is-invalid').siblings('p').addClass('invalid-feedback').html(errors['slug']);
